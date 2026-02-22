@@ -4,7 +4,13 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const app = express();
-app.use(cors());
+
+app.use(
+  cors({
+    origin: "https://e-commerce-frontend-51f5.onrender.com",
+    credentials: true,
+  }),
+);
 
 app.get("/", (req, res) => {
   res.send({ message: "Welcome E-Commerce Backend System!" });
