@@ -1,0 +1,51 @@
+export const furnitureLevelTwo = [
+  {
+    name: "Bed Linen & Furnishing",
+    categoryId: "bed-linen-furnishing",
+    parentCategoryName: "Furniture",
+    parentCategoryId: "furniture",
+    level: 2,
+  },
+  {
+    name: "Flooring",
+    categoryId: "flooring",
+    parentCategoryName: "Furniture",
+    parentCategoryId: "furniture",
+    level: 2,
+  },
+  {
+    name: "Bath",
+    categoryId: "bath",
+    parentCategoryName: "Furniture",
+    parentCategoryId: "furniture",
+    level: 2,
+  },
+  {
+    name: "Lamps & Lighting",
+    categoryId: "lamps-lighting",
+    parentCategoryName: "Furniture",
+    parentCategoryId: "furniture",
+    level: 2,
+  },
+  {
+    name: "Home Décor",
+    categoryId: "home-decor",
+    parentCategoryName: "Furniture",
+    parentCategoryId: "furniture",
+    level: 2,
+  },
+  {
+    name: "Kitchen & Table",
+    categoryId: "kitchen-table",
+    parentCategoryName: "Furniture",
+    parentCategoryId: "furniture",
+    level: 2,
+  },
+  {
+    name: "Storage",
+    categoryId: "storage",
+    parentCategoryName: "Furniture",
+    parentCategoryId: "furniture",
+    level: 2,
+  },
+];
